@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function FGreeting() {
+function FGreeting({name}) {
   const [greeting, setGreeting] = useState('Hello World!');
 
   const handleChangeGreeting = () => {
@@ -13,7 +13,7 @@ function FGreeting() {
 
   return (
     <div>
-        <h1>{greeting}</h1>
+        <h1>{greeting} {name}</h1>
         <button onClick={handleChangeGreeting}>Change Greeting</button>
     </div>
     );

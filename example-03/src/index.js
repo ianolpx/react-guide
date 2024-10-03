@@ -6,7 +6,7 @@ import CGreeting from './CGreeting';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FGreeting />
-    <CGreeting />
+    <FGreeting name="Hanseo!" />
+    <CGreeting name="Hanseo!" />
   </React.StrictMode>
 );

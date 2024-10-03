@@ -20,7 +20,7 @@ class CGreeting extends Component {
     render() {
         return (
             <div>
-                <h1>{this.state.greeting}</h1>
+                <h1>{this.state.greeting} {this.props.name}</h1>
                 <button onClick={this.handleChangeGreeting}>Change Greeting</button>
             </div>
         );
