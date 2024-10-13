@@ -1,7 +1,20 @@
-# react-guide
+# React Guide
 
 ## Introduction
 `react-guide` is a guide for developers who are new to React. This guide starts with basic React concepts and gradually progresses to more complex topics.
+
+## Version
+- node: v20.17.0
+- npm: v10.8.2
+
+## Example Explanation
+- example-01: Hello World
+- exmaple-02: Functional Component and Classical Component
+- example-03: Props and State
+- example-04: Handling Events 1
+- example-05: Handling Events 2 (Input)
+- example-06: Re-use Components
+- example-07: Pages
 
 ## Installation
 1. Clone this repository:
@@ -14,24 +27,16 @@
     ```
 3. Install the necessary packages:
     ```bash
-    npm install
-    or
     yarn install
     ```
 
 ## Usage
 To run the project, use the following command:
 ```bash
-npm start
-or
 yarn start
 ```
 
 Open your browser and go to http://localhost:3000 to see the application.
-
-## Example Explanation
-- example-01: Hello World
-- exmaple-02
 
 ## Contribution
 If you wish to contribute, please fork this repository and submit a pull request. Bug reports and feature suggestions are also welcome!
