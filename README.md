@@ -15,6 +15,10 @@
 - example-05: Handling Events 2 (Input)
 - example-06: Re-use Components
 - example-07: Pages
+- example-08: Simple Backend, Frontend
+- example-09: Conditional Rendering
+- example-10: Lists and Keys
+- example-11: Form
 
 ## Installation
 1. Clone this repository:
