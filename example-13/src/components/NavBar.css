@@ -1,0 +1,13 @@
+/* NavBar.css */
+
+.navbar {
+  background-color: green;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: yellow;
+}

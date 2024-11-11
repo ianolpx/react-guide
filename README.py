@@ -19,6 +19,10 @@
 - example-09: Conditional Rendering
 - example-10: Lists and Keys
 - example-11: Form
+- example-12: Lifting State Up
+- example-13: Routing
+- example-14: Storage and Cookies
+
 
 ## Installation
 1. Clone this repository:

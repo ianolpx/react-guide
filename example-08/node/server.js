@@ -14,6 +14,15 @@ app.get('/api/sample', (req, res) => {
   res.send(response.data);
 });
 
+app.post('/api/sample', (req, res) => {
+  // receive data from the client
+  const data = req.body;
+  console.log(data);
+  // send response to the client
+  res.send({ message: 'Data received' });
+}
+
+
 app.listen(PORT, () => {
   console.log(`서버가 http://localhost:${PORT}에서 실행 중`);
 });
