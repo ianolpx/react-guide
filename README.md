@@ -22,6 +22,10 @@
 - example-12: Lifting State Up
 - example-13: Routing
 - example-14: Storage and Cookies
+- example-15: nodejs, jwt
+- example-16: nodejs, express, jwt, cookie
+- example-17: react, jwt, cookie
+- example-18: nodejs, jwt, token 
 
 
 ## Installation
