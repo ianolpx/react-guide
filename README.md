@@ -22,10 +22,14 @@
 - example-12: Lifting State Up
 - example-13: Routing
 - example-14: Storage and Cookies
-- example-15: nodejs, jwt
-- example-16: nodejs, express, jwt, cookie
-- example-17: react, jwt, cookie
-- example-18: nodejs, jwt, token 
+- example-15: Node.js, JWT
+- example-16: Node.js, Express, JWT, Cookie
+- example-17: react, JWT, Cookie
+- example-18: Node.js, JWT, Token 
+- example-19: react, JWT, Token
+- example-20: Node.js, CRUD
+- example-21: Node.js, JWT, CRUD
+- example-22: react, JWT, CRUD
 
 
 ## Installation

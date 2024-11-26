@@ -4,6 +4,8 @@ const cors = require('cors');
 const jwt = require('jsonwebtoken');
 
 app.use(cors());
+app.use(express.json()); // JSON 요청 본문 파싱
+
 const PORT = 3003;
 const SECRET_KEY = 'your_secret_key'; 
 
@@ -33,8 +35,8 @@ function authenticateToken(req, res, next) {
 
 
 // Login API
-app.post('/api/login', (req, res) => {
-  const { username, password } = req.body;
+app.post('/login', (req, res) => {
+    const {username, password} = req.body;
     if (sample_db.id === username && sample_db.password === password) {
         const token = jwt.sign({ userId: sample_db.id, role: sample_db.role }, SECRET_KEY, { expiresIn: '1h' });
         res.send({ token });
@@ -51,7 +53,7 @@ app.get('/', (req, res) => {
   
 // 보호된 라우트
 app.get('/protected', authenticateToken, (req, res) => {
-    res.json({ message: '인증된 사용자만 접근 가능', user: req.user });
+    res.json({ message: '보호된 라우트에 접근 성공' });
 });
   
 
