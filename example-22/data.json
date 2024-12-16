@@ -2,7 +2,12 @@
   {
     "id": 1732552176127,
     "name": "Hanseo",
-    "email": "hanseo@example.com",
+    "email": "test2",
     "password_hash": "123"
+  },
+  {
+    "id": 1733205109787,
+    "email": "test2",
+    "password": "$2b$10$IkipdFDYFWlL7Pplil/e.uxr/F4JU2IBXfDSzmYVQ5HQzWc9g6V0q"
   }
 ]

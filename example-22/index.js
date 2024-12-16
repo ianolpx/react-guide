@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json()); // JSON 요청 본문 파싱
 
 const PORT = 3003;
-// const SECRET_KEY = 'your_secret_key'; // JWT 비밀 키
+const SECRET_KEY = 'your_secret_key'; // JWT 비밀 키
 const DATA_FILE = './data.json';
 
 // 데이터 읽기 함수
