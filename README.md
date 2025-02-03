@@ -30,6 +30,8 @@
 - example-20: Node.js, CRUD
 - example-21: Node.js, JWT, CRUD
 - example-22: react, JWT, CRUD
+- example-23: Typescript 1
+- example-24: Typescript 2
 
 
 ## Installation
